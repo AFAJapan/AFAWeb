@@ -1,0 +1,39 @@
+.banner_image{
+    width: 100%;
+    position: relative;
+}
+
+.banner_text{
+    position: absolute;
+    right:10rem;
+    top: 2rem;
+    left: 20%;
+    color: rgba(0, 0, 0, 0.87);
+    background:rgba(238, 238, 238, 0.5);
+    text-align: right;
+    font-size: 42px;
+    font-style: normal;
+    font-weight: 700;
+    line-height: normal;
+    letter-spacing: 1.47px;
+    text-transform: capitalize;
+    font-family: 'D-DIN Condensed', sans-serif;
+}
+
+/* Media queries */
+
+@media only screen and (max-width: 768px){
+    .banner_text{
+        color: rgba(0, 0, 0, 0.87);
+        font-family: 'D-DIN Condensed', sans-serif;
+        font-size: 18.9px;
+        font-style: normal;
+        font-weight: 700;
+        line-height: normal;
+        letter-spacing: 0.661px;
+        text-transform: capitalize;
+        top: 0rem;
+        left: 2%;
+        width: 95%;
+    }
+}

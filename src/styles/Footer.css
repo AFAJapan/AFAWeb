@@ -1,0 +1,87 @@
+.footer_container{
+    background-color: #ffd900;
+    padding: 2rem 4rem;
+    color: #000;
+    font-size: 20px;
+    font-style: normal;
+    font-weight: 400;
+    line-height: 130%; /* 26px */
+    font-family: 'Oswald', sans-serif;
+    line-height: 130%; /* 26px */
+    letter-spacing: 1.1px;
+}
+
+.footer_contact{
+    display: inline-flex;
+    padding-bottom: 0.5rem;
+}
+
+.footer_page{
+    padding-bottom: 1rem;
+}
+
+.footer_link{
+    color: #000;
+    text-decoration: none;
+    font-family: 'Oswald', sans-serif;
+}
+
+.social_media_icon_insta{
+    background-color: #000;
+    padding: 0.1rem 0.1rem;
+    border-radius: 50%;
+    margin-top: 7px;
+}
+
+.social_media_icon_fb{
+    transform: scale(1.5);
+    margin-right: 1rem;
+    margin-top: 9px;
+    color: #000;
+}
+
+.footer_dt_logo{
+    margin-top: -4rem;
+}
+
+/* Media queries */
+@media only screen and (max-width: 768px) {
+    .footer_link{
+        color: #000;
+        font-family: 'Oswald', sans-serif;
+        font-size: 15px;
+        font-style: normal;
+        font-weight: 400;
+        line-height: 130%; /* 19.5px */
+        letter-spacing: 0.825px;
+    }
+
+    .footer_container{
+        color: #000;
+        font-family: 'Oswald', sans-serif;
+        font-size: 15px;
+        font-style: normal;
+        font-weight: 400;
+        line-height: 130%; /* 19.5px */
+        letter-spacing: 0.825px;
+        padding: 1rem;
+        position: relative;
+    }
+
+    .footer_copyright {
+        color: #000;
+        font-family: 'Oswald', sans-serif;
+        font-size: 12px;
+        font-style: normal;
+        font-weight: 400;
+        line-height: 130%; /* 15.6px */
+        letter-spacing: 0.66px;
+    }
+
+    .footer_dt_logo{
+       bottom: 4rem;
+       margin-top: 0rem;
+       position: absolute;
+       right: 1rem;
+    }
+  }

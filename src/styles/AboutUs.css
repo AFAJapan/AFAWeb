@@ -1,0 +1,64 @@
+/* .about_title_container{
+    color: #FFA523;
+    font-family: 'DIN Next W1G', sans-serif;
+    font-size: 36px;
+    font-style: normal;
+    font-weight: 500;
+    line-height: normal;
+    text-transform: capitalize;
+    width: 800px;
+    position: absolute;
+    top: 95%;
+    left: 25%;
+} */
+
+
+.about_title{
+    border-bottom: 1px solid #979797;
+    background: #FFF;
+    box-shadow: 0px 4px 4px 0px rgba(0, 0, 0, 0.25);
+    padding: 1rem;
+}
+
+.aboutus_banner{
+    position: relative;
+}
+
+.about_tiles_title{
+    /* position: absolute; */
+    /* background: #FFF; */
+    bottom: 1rem;
+    min-width: 370px;
+    /* height: 48px; */
+    color: #FFD900;
+    font-size: 24px;
+    font-style: normal;
+    font-weight: 700;
+    line-height: normal;
+    letter-spacing: 1.2px;
+    text-transform: uppercase;
+    padding: 0.5rem 0rem;
+    padding-left: 1rem;
+    float: inline-start;
+    /* margin-left: -1rem; */
+}
+
+/* .about_tiles_container{
+    position: relative;
+} */
+
+/* media queries */
+
+@media only screen and (max-width: 768px) {
+    .about_tiles_title{
+        color: #FFD900;
+        font-family: 'Oswald', sans-serif;
+        font-size: 16px;
+        font-style: normal;
+        font-weight: 600;
+        line-height: 0;
+        letter-spacing: 0.8px;
+        text-transform: capitalize;
+        min-width:max-content;
+    }
+   }

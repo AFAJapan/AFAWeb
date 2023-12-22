@@ -1,0 +1,41 @@
+.tiles_title{
+    /* position: absolute; */
+    /* background:rgba(238, 238, 238, 0.93); */
+    /* bottom: 1rem; */
+    /* width: 370px; */
+    /* left: 7.5rem; */
+    /* height: 48px; */
+    
+    color: #FFD900;
+    font-size: 24px;
+    font-style: normal;
+    font-weight: 700;
+    line-height: normal;
+    letter-spacing: 1.2px;
+    text-transform: uppercase;
+    /* padding: 0.5rem 0rem; */
+    /* padding-left: 1rem; */
+    font-family: 'Oswald', sans-serif;
+    text-decoration: none;
+    float: inline-start;
+    margin-left: 1rem;
+}
+
+.tiles_container{
+    /* position: relative; */
+}
+
+/* media queries */
+
+@media only screen and (max-width: 768px) {
+   .tiles_title{
+    color: #FFD900;
+    font-family: 'Oswald', sans-serif;
+    font-size: 16px;
+    font-style: normal;
+    font-weight: 600;
+    line-height: normal;
+    letter-spacing: 0.8px;
+    text-transform: capitalize;
+   }
+  }

@@ -1,0 +1,231 @@
+
+.ASL_container{
+    text-align: center;
+    background: #FBFBFB;
+    max-width: 770px;
+    margin: 0 auto;
+    margin-bottom: 6rem;
+}
+
+.ASL_title{
+    color: #FFD900;
+    text-align: center;
+    font-family: 'Oswald', sans-serif;
+    font-size: 63px;
+    font-style: normal;
+    font-weight: 700;
+    line-height: normal;
+    position: absolute;
+    bottom: 0px;
+    background-color: white !important;
+    left: 50%;
+    transform: translateX(-50%);
+    margin: 0;
+    padding: 0.5rem 0rem;
+    /* width: 100vw-50%; */
+    width: calc(100vw - 40%);
+    text-align: center;
+}
+
+.ASL_desc{
+    color: #000;
+    font-family: 'Neuton', serif;
+    font-size: 24px;
+    font-style: normal;
+    font-weight: 300;
+    line-height: 32px; /* 133.333% */
+    letter-spacing: 0.48px;
+    text-align: left;
+}
+
+.result_container{
+    margin-top: 3rem;
+}
+
+.result_year{
+    color: #FFD900;
+    font-family: 'Oswald', sans-serif;
+    font-size: 40px;
+    font-style: normal;
+    font-weight: 700;
+    line-height: normal;
+    text-align: center;
+}
+
+.category_title{
+    color: #FFD900;
+    font-family: 'Oswald', sans-serif;
+    font-size: 24px;
+    font-style: normal;
+    font-weight: 600;
+    line-height: normal;
+    letter-spacing: 1.2px;
+    text-transform: capitalize;
+    text-align: center;
+}
+
+.category_desc{
+    color: #000;
+    text-align: center;
+    font-family: 'Neuton', serif;
+    font-size: 24px;
+    font-style: normal;
+    font-weight: 300;
+    line-height: 50px; /* 208.333% */
+    letter-spacing: 0.48px;
+}
+
+.tournament_title{
+    color: #FFD900;
+    font-family: 'Oswald', sans-serif;
+    font-size: 40px;
+    font-style: normal;
+    font-weight: 600;
+    line-height: normal;
+    letter-spacing: 2px;
+    text-transform: capitalize;
+    text-align: center;
+    background-color: #000;
+    width: max-content;
+    margin: 0 auto;
+    padding: 0rem 1rem;
+}
+
+.tournament_fixtures_title{
+    color: #000;
+    font-family: 'Oswald', sans-serif;
+    font-size: 40px;
+    font-style: normal;
+    font-weight: 700;
+    line-height: normal;
+    text-align: center;
+}
+
+.tournament_location_link{
+    color: #3382E7;
+    text-align: center;
+    font-family: Georgia;
+    font-size: 36px;
+    font-style: normal;
+    font-weight: 400;
+    line-height: 20px; /* 55.556% */
+    letter-spacing: 0.72px;
+    text-decoration-line: underline;
+}
+
+.tournament_date_time{
+    color: #000;
+    text-align: center;
+    font-family: 'Neuton', serif;
+    font-size: 40px;
+    font-style: normal;
+    font-weight: 400;
+    line-height: 32px; /* 80% */
+    letter-spacing: 0.8px;
+}
+
+.events_asl_image{
+    width: 100%;
+}
+
+.league_category_title{
+    color: #000;
+    font-family: 'Oswald',sans-serif;
+    font-size: 32px;
+    font-style: normal;
+    font-weight: 700;
+    line-height: normal;
+    text-align: center;
+}
+
+/* Media queries */
+@media only screen and (max-width: 768px) {
+    .ASL_title{
+        color: #FFD900;
+        text-align: center;
+        font-size: 20px;
+        font-style: normal;
+        font-weight: 700;
+        line-height: normal;
+    }
+
+    .ASL_desc{
+        color: #000;
+        text-align: justify;
+        font-size: 16px;
+        font-style: normal;
+        font-weight: 300;
+        line-height: 20px; /* 125% */
+        letter-spacing: 0.16px;
+        padding: 0rem 1rem;
+    }
+
+    .tournament_title{
+        color: #FFD900;
+        font-size: 20px;
+        font-style: normal;
+        font-weight: 600;
+        line-height: normal;
+        letter-spacing: 1px;
+        width: 90%;
+    }
+
+    .tournament_fixtures_title{
+        color: #000;
+        font-size: 20px;
+        font-style: normal;
+        font-weight: 700;
+        line-height: normal;
+    }
+
+    .tournament_location_link{
+        color: #3382E7;
+        text-align: center;
+        font-size: 20px;
+        font-style: normal;
+        font-weight: 400;
+        line-height: 9.917px; /* 49.587% */
+        letter-spacing: 0.4px;
+        text-decoration-line: underline;
+        margin: 0 auto;
+    }
+
+    .tournament_date_time{
+        color: #000;
+        text-align: center;
+        font-size: 20px;
+        font-style: normal;
+        font-weight: 400;
+        line-height: 32px; /* 160% */
+        letter-spacing: 0.4px;
+    }
+
+    .league_category_title{
+        color: #000;
+        font-size: 20px;
+        font-style: normal;
+        font-weight: 700;
+        line-height: normal;
+    }
+
+    .result_year{
+        color: #FFD900;
+        font-size: 16px;
+        font-style: normal;
+        font-weight: 600;
+        line-height: 74.841%; /* 11.975px */
+        letter-spacing: 0.8px;
+        text-transform: capitalize;
+        margin: 0px;
+    }
+
+    .category_desc{
+        color: #000;
+        text-align: center;
+        font-size: 16px;
+        font-style: normal;
+        font-weight: 300;
+        line-height: 30px; /* 187.5% */
+        letter-spacing: 0.32px;
+    }
+}

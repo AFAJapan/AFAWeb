@@ -1,0 +1,104 @@
+.collaborations_title{
+    color: #FFD900;
+    font-size: 40px;
+    font-style: normal;
+    font-weight: 700;
+    line-height: normal;
+    letter-spacing: 2px;
+    text-transform: uppercase;
+    margin-top: 4rem;
+    font-family: 'DIN Next W1G', sans-serif;
+    background: #000;
+    width: max-content;
+    padding: 0.5rem 1rem;
+}
+
+.colloboration_partner {
+    color: #000;
+    text-align: center;
+    font-size: 24px;
+    font-style: normal;
+    font-weight: 400;
+    line-height: 32px; /* 133.333% */
+    max-width: 1263px;
+    margin-top: 2rem;
+    font-family: 'Neuton', serif;
+}
+
+.collaboration_more{
+    color: #FFD900;
+    text-align: center;
+    font-size: 24px;
+    font-style: normal;
+    font-weight: 500;
+    line-height: normal;
+    text-transform: capitalize;
+    margin-top: 2rem;
+    font-family: 'DIN Next W1G', sans-serif;
+}
+
+.waseda_link{
+    color: #FFD900;
+    font-size: 24px;
+    font-style: normal;
+    font-weight: 500;
+    line-height: normal;
+    text-decoration-line: underline;
+    text-transform: capitalize;
+    font-family: 'DIN Next W1G', sans-serif;
+}
+
+/* Media queries */
+
+@media only screen and (max-width: 768px) {
+    .collaborations_title{
+        color: #FFD900;
+        font-family: 'DIN Next W1G', sans-serif;
+        font-size: 15.369px;
+        font-style: normal;
+        font-weight: 700;
+        line-height: normal;
+        letter-spacing: 0.768px;
+        text-transform: uppercase;
+    }
+
+    .waseda_logo{
+        width: 97.212px;
+    }
+
+    .colloboration_partner{
+        color: #000;
+        text-align: center;
+        font-family: 'Neuton', serif;
+        font-size: 16px;
+        font-style: normal;
+        font-weight: 300;
+        line-height: 20px; /* 125% */
+        letter-spacing: 0.16px;
+        padding: 0rem 1rem;
+    }
+
+    .collaboration_more{
+        color: #FFD900;
+        text-align: center;
+        margin-top: 0rem;
+        font-family: 'DIN Next W1G', sans-serif;
+        font-size: 10.125px;
+        font-style: normal;
+        font-weight: 500;
+        line-height: normal;
+        text-transform: capitalize;
+    }
+
+    .waseda_link{
+        color: #FFD900;
+        text-align: center;
+        margin-top: 0rem;
+        font-family: 'DIN Next W1G', sans-serif;
+        font-size: 10.125px;
+        font-style: normal;
+        font-weight: 500;
+        line-height: normal;
+        text-transform: capitalize;
+    }
+}

@@ -1,0 +1,416 @@
+
+.membership_container{
+    text-align: center;
+    background: #FBFBFB;
+    max-width: 1002px;
+    margin: 0 auto;
+}
+
+.membership_title{
+    color: #FFD900;
+    text-align: center;
+    font-family: 'Oswald', sans-serif;
+    font-size: 63px;
+    font-style: normal;
+    font-weight: 700;
+    line-height: normal;
+    position: absolute;
+    bottom: 0px;
+    background-color: white !important;
+    left: 50%;
+    transform: translateX(-50%);
+    margin: 0;
+    padding: 0.5rem 0rem;
+    /* width: 100vw-50%; */
+    width: calc(100vw - 40%);
+    text-align: center;
+}
+
+.membership_kid_title{
+    color: #000;
+    font-family: 'Oswald', sans-serif;
+    font-size: 40px;
+    font-style: normal;
+    font-weight: 700;
+    line-height: normal;
+}
+
+.membership_kid_desc{
+    color: #000;
+    text-align: justify;
+    font-family: 'Neuton', serif;
+    font-size: 24px;
+    font-style: normal;
+    font-weight: 300;
+    line-height: 32px; /* 133.333% */
+    letter-spacing: 0.48px;
+}
+
+.membership_benefits_title{
+    color: #FFD900;
+    text-align: center;
+    font-family: 'Oswald', sans-serif;
+    font-size: 24px;
+    font-style: normal;
+    font-weight: 600;
+    line-height: normal;
+    letter-spacing: 1.2px;
+    text-transform: capitalize;
+}
+
+.membership_benefits_subtitle{
+    color: #000;
+    text-align: justify;
+    font-family: 'Neuton', serif;
+    font-size: 24px;
+    font-style: normal;
+    font-weight: 600;
+    line-height: 32px; /* 133.333% */
+    letter-spacing: 0.48px;
+}
+
+.membership_benefits_desc{
+    color: #000;
+    font-family: 'Neuton', serif;
+    font-size: 24px;
+    font-style: normal;
+    font-weight: 300;
+    line-height: 32px;
+    letter-spacing: 0.48px;
+    text-align: left;
+}
+
+.membership_adult_title{
+    color: #000;
+    font-family: 'Neuton', serif;
+    font-size: 40px;
+    font-style: normal;
+    font-weight: 700;
+    line-height: normal;
+}
+
+.member_table_header{
+    background: #000;
+    color: #FFF;
+    text-align: left;
+    font-family: 'Oswald', sans-serif;
+    font-size: 24px;
+    font-style: normal;
+    font-weight: 400;
+    line-height: normal;
+    text-transform: uppercase;
+    padding-left: 2rem;
+    margin-top: 3rem;
+    }
+
+.member_table_row{
+    background: #F2F2F2;
+    padding: 1rem;
+    margin-top: 0.5rem;
+    margin-bottom: 0.5rem;
+}
+
+.adult_member_title{
+    color: #FFD900;
+    text-align: left;
+    font-family: 'Oswald', sans-serif;
+    font-size: 24px;
+    font-style: normal;
+    font-weight: 600;
+    line-height: normal;
+    letter-spacing: 1.2px;
+    text-transform: capitalize;
+}
+
+.adult_member_points{
+    color: #000;
+    text-align: justify;
+    font-family: 'Neuton', serif;
+    font-size: 24px;
+    font-style: normal;
+    font-weight: 300;
+    line-height: 32px; /* 133.333% */
+    letter-spacing: 0.48px;
+}
+
+.parent_member_title{
+    color: #FFD900;
+    text-align: left;
+    font-family: 'Oswald', sans-serif;
+    font-size: 24px;
+    font-style: normal;
+    font-weight: 600;
+    line-height: normal;
+    letter-spacing: 1.2px;
+    text-transform: capitalize;
+}
+
+.parent_member_points{
+    color: #000;
+    text-align: justify;
+    font-family: 'Neuton', serif;
+    font-size: 24px;
+    font-style: normal;
+    font-weight: 300;
+    line-height: 32px; /* 133.333% */
+    letter-spacing: 0.48px;
+}
+
+.support_member_title{
+    color: #FFD900;
+    text-align: left;
+    font-family: 'Oswald', sans-serif;
+    font-size: 24px;
+    font-style: normal;
+    font-weight: 600;
+    line-height: normal;
+    letter-spacing: 1.2px;
+    text-transform: capitalize;
+}
+
+.support_member_points{
+    color: #000;
+    text-align: justify;
+    font-family: 'Neuton', serif;
+    font-size: 24px;
+    font-style: normal;
+    font-weight: 300;
+    line-height: 32px; /* 133.333% */
+    letter-spacing: 0.48px;
+}
+
+.registration_title{
+    color: #000;
+    font-family: 'Oswald', sans-serif;
+    font-size: 40px;
+    font-style: normal;
+    font-weight: 700;
+    line-height: normal;
+}
+
+.registration_desc{
+    color: #000;
+    text-align: justify;
+    font-family: 'Neuton', serif;
+    font-size: 24px;
+    font-style: normal;
+    font-weight: 300;
+    line-height: 32px; /* 133.333% */
+    letter-spacing: 0.48px;
+}
+
+.member_register_link{
+    color: #3382E7;
+    font-family: Gelasio;
+    font-size: 24px;
+    font-style: italic;
+    font-weight: 400;
+    line-height: 32px;
+    letter-spacing: 0.48px;
+    text-decoration-line: underline;
+}
+
+.register_mail{
+    color: #3382E7;
+    font-family: 'Neuton', serif;
+    font-size: 24px;
+    font-style: italic;
+    font-weight: 400;
+    line-height: 32px;
+    letter-spacing: 0.48px;
+    text-decoration-line: underline;
+}
+
+.register_italic{
+    color: #000;
+    font-family: 'Neuton', serif;
+    font-size: 24px;
+    font-style: italic;
+    font-weight: 600;
+    line-height: 32px;
+    letter-spacing: 0.48px;
+}
+
+@media only screen and (max-width: 768px) {
+    .membership_title{
+        color: #FFD900;
+        text-align: center;
+        font-size: 32px;
+        font-style: normal;
+        font-weight: 700;
+        line-height: normal;
+    }
+
+    .membership_kid_title{
+        color: #000;
+        font-size: 20px;
+        font-style: normal;
+        font-weight: 700;
+        line-height: normal;
+    }
+
+    .membership_kid_desc{
+        color: #000;
+        text-align: justify;
+        font-size: 16px;
+        font-style: normal;
+        font-weight: 300;
+        line-height: 20px; /* 125% */
+        letter-spacing: 0.16px;
+        padding: 0rem 1rem;
+    }
+
+    .membership_benefits_title{
+        color: #FFD900;
+        text-align: left;
+        font-size: 16px;
+        font-style: normal;
+        font-weight: 600;
+        line-height: normal;
+        letter-spacing: 0.8px;
+        text-transform: capitalize;
+        padding: 0rem 1rem;
+    }
+
+    .membership_benefits_subtitle{
+        color: #000;
+        text-align: justify;
+        font-size: 16px;
+        font-style: normal;
+        font-weight: 600;
+        line-height: 20px; /* 125% */
+        letter-spacing: 0.16px;
+        padding: 0rem 1rem;
+    }
+
+    .membership_benefits_desc{
+        color: #000;
+        font-size: 16px;
+        font-style: normal;
+        font-weight: 300;
+        line-height: 20px;
+        letter-spacing: 0.16px;
+        padding: 0rem 1rem;
+    }
+
+    .membership_adult_title{
+        color: #000;
+        font-size: 20px;
+        font-style: normal;
+        font-weight: 700;
+        line-height: normal;
+    }
+
+    .adult_member_title{
+        color: #FFD900;
+        font-size: 16px;
+        font-style: normal;
+        font-weight: 600;
+        line-height: normal;
+        letter-spacing: 0.8px;
+        text-transform: capitalize;
+        padding: 0rem 1rem;
+    }
+
+    .adult_member_points{
+        color: #000;
+        text-align: justify;
+        font-size: 16px;
+        font-style: normal;
+        font-weight: 300;
+        line-height: 20px; /* 125% */
+        letter-spacing: 0.16px;
+        padding-right: 1rem;
+    }
+
+    .parent_member_title{
+        color: #FFD900;
+        font-size: 16px;
+        font-style: normal;
+        font-weight: 600;
+        line-height: normal;
+        letter-spacing: 0.8px;
+        text-transform: capitalize;
+        padding: 0rem 1rem;
+    }
+
+    .parent_member_points{
+        color: #000;
+        text-align: justify;
+        font-size: 16px;
+        font-style: normal;
+        font-weight: 300;
+        line-height: 20px; /* 125% */
+        letter-spacing: 0.16px;
+        padding-right: 1rem;
+    }
+
+    .support_member_title{
+        color: #FFD900;
+        font-size: 16px;
+        font-style: normal;
+        font-weight: 600;
+        line-height: normal;
+        letter-spacing: 0.8px;
+        text-transform: capitalize;
+        padding: 0rem 1rem;
+    }
+
+    .support_member_points{
+        color: #000;
+        text-align: justify;
+        font-size: 16px;
+        font-style: normal;
+        font-weight: 300;
+        line-height: 20px; /* 125% */
+        letter-spacing: 0.16px;
+        padding-right: 1rem;
+    }
+
+    .registration_title{
+        color: #000;
+        font-size: 20px;
+        font-style: normal;
+        font-weight: 700;
+        line-height: normal;
+    }
+
+    .registration_desc{
+        color: #000;
+        text-align: justify;
+        font-size: 16px;
+        font-style: normal;
+        font-weight: 300;
+        line-height: 20px; /* 125% */
+        letter-spacing: 0.16px;
+        padding: 0rem 1rem;
+    }
+
+    .member_register_link{
+        color: #3382E7;
+        font-size: 16px;
+        font-style: italic;
+        font-weight: 400;
+        line-height: 20px;
+        letter-spacing: 0.16px;
+        text-decoration-line: underline;
+    }
+
+    .register_italic{
+        color: #000;
+        font-size: 16px;
+        font-style: italic;
+        line-height: 20px;
+        letter-spacing: 0.16px;
+    }
+
+    .register_mail{
+        color: #3382E7;
+        font-size: 16px;
+        font-style: italic;
+        font-weight: 400;
+        line-height: 20px;
+        letter-spacing: 0.16px;
+        text-decoration-line: underline;
+    }
+}

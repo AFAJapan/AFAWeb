@@ -1,0 +1,35 @@
+.calendar_button_container{
+    text-align: center;
+    margin-top: 3rem;
+}
+
+.calendar_button{
+    color: #FFD900;
+    text-align: center;
+    font-family: 'Oswald', sans-serif;
+    font-size: 24px;
+    font-style: normal;
+    font-weight: 500;
+    line-height: normal;
+    letter-spacing: 1.32px;
+    text-transform: uppercase;
+    background-color: transparent;
+    border: none;
+    margin-right: 2rem;
+    cursor: pointer;
+}
+
+.calendar_focused_button{
+    color: #FFD900;
+    text-align: center;
+    font-family: 'Oswald', sans-serif;
+    font-size: 24px;
+    font-style: normal;
+    font-weight: 500;
+    line-height: normal;
+    letter-spacing: 1.32px;
+    text-transform: uppercase;
+    background-color: #000;
+    margin-right: 2rem;
+    cursor: pointer;
+}

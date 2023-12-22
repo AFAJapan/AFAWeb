@@ -1,0 +1,41 @@
+.header_container {
+    background: #ffd900;
+    display: inline-flex;
+    width: 100%;
+}
+
+.afa_logo{
+    margin: 1rem 2rem;
+    margin-right: 0rem;
+}
+
+.afa_title {
+    color: #000;
+    font-family: 'Rowdies', sans-serif;
+    font-size: 51px;
+    font-style: normal;
+    font-weight: 400;
+    line-height: normal;
+    text-transform: capitalize;
+    margin-top: 3rem;
+}
+
+.afa_title_mobile{
+    color: #000;
+    font-family: 'Rowdies', sans-serif;
+    font-size: 14px;
+    font-style: normal;
+    font-weight: 400;
+    line-height: normal;
+    text-transform: capitalize;
+}
+
+.afa_logo_mobile{
+    padding-top: 0.5rem;
+}
+
+.header_container_mobile{
+    background: #ffd900;
+    padding-left: 1rem;
+    padding-bottom: 1rem;
+}

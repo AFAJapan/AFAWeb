@@ -1,0 +1,165 @@
+/* .history_banner{
+    position: relative;
+    margin-bottom: 70rem;
+    margin-left: auto;
+    margin-right:auto;
+} */
+
+.history_container{
+    text-align: center;
+    background: #FBFBFB;
+    max-width: 770px;
+    margin: 0 auto;
+    margin-bottom: 6rem;
+}
+
+.history_title{
+    color: #FFD900;
+    font-family: 'Oswald', sans-serif;
+    font-size: 40px;
+    font-style: normal;
+    font-weight: 600;
+    line-height: normal;
+    letter-spacing: 1.2px;
+    text-transform: uppercase;
+    position: absolute;
+    bottom: 0px;
+    background-color: white !important;
+    left: 50%;
+    transform: translateX(-50%);
+    margin: 0;
+    padding: 0.5rem 0rem;
+    /* width: 100vw-50%; */
+    width: calc(100vw - 40%);
+    text-align: center;
+}
+
+.history_desc{
+    color: #000;
+    text-align: justify;
+    font-family: 'Neuton', serif;
+    font-size: 24px;
+    font-style: normal;
+    font-weight: 300;
+    line-height: 32px;
+    letter-spacing: 0.48px;
+}
+
+.history_paragraph{
+    color: #000;
+    text-align: justify;
+    font-family: 'Neuton', serif;
+    font-size: 24px;
+    font-style: normal;
+    font-weight: 300;
+    line-height: 32px; /* 137.5% */
+    letter-spacing: 0.48px;
+}
+
+.date_container{
+    display: inline-flex;
+    border-bottom: 0.5px solid #979797;
+}
+
+.date{
+    background: #FFF;
+    box-shadow: 0px 4px 4px 0px rgba(0, 0, 0, 0.25);
+    color: #000;
+    text-align: justify;
+    font-family: 'DIN Next W1G', sans-serif;
+    font-size: 20px;
+    font-style: normal;
+    font-weight: 400;
+    line-height: normal;
+    text-transform: capitalize;
+    width: 247px;
+    padding: 1rem 2rem;
+}
+
+.history_events{
+    color: #000;
+    text-align: justify;
+    font-family: 'DIN Next W1G', sans-serif;
+    font-size: 20px;
+    font-style: normal;
+    font-weight: 400;
+    line-height: normal;
+    text-transform: capitalize;
+    width: 410px;
+    background: #FFF;
+    padding: 1rem 2rem;
+    box-shadow: 0px 4px 4px 0px rgba(0, 0, 0, 0.25);    
+}
+
+.date_container_last{
+    display: inline-flex;
+    border-bottom:none;
+}
+
+.history_events_conatiner{
+    display: inline-grid;
+    margin-top: 2rem;
+    padding-bottom: 3rem;
+}
+
+/* Media Queries */
+@media only screen and (max-width: 768px) {
+    .history_title{
+        color: #FFD900;
+        text-align: center;
+        font-size: 32px;
+        font-style: normal;
+        font-weight: 700;
+        line-height: normal;
+        padding: 0rem;
+    }
+
+    .history_desc{
+        color: #000;
+        text-align: justify;
+        font-size: 16px;
+        font-style: normal;
+        font-weight: 300;
+        line-height: 20px; /* 125% */
+        letter-spacing: 0.16px;
+        padding: 0rem 1rem;
+    }
+
+    .history_paragraph{
+        color: #000;
+        text-align: justify;
+        font-size: 16px;
+        font-style: normal;
+        font-weight: 300;
+        line-height: 20px; /* 125% */
+        letter-spacing: 0.16px;
+        padding: 0rem 1rem;
+    }
+
+    .history_events_conatiner{
+        width: 100%;
+    }
+
+    .date{
+        color: #000;
+        text-align: justify;
+        font-size: 9.532px;
+        font-style: normal;
+        font-weight: 400;
+        line-height: normal;
+        text-transform: capitalize;
+        width: 40%;
+        padding: 1rem;
+    }
+
+    .history_events{
+        color: #000;
+        text-align: justify;
+        font-size: 9.532px;
+        font-style: normal;
+        font-weight: 400;
+        line-height: normal;
+        text-transform: capitalize;
+        width: 60%;
+    }
+}

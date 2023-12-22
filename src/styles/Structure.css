@@ -1,0 +1,166 @@
+
+
+.structure_container{
+    text-align: center;
+    background: #FBFBFB;
+    max-width: 770px;
+    margin: 0 auto;
+    margin-bottom: 6rem;
+}
+
+.structure_title{
+    color: #FFD900;
+    text-align: center;
+    font-family: 'Oswald', sans-serif;
+    font-size: 63px;
+    font-style: normal;
+    font-weight: 700;
+    line-height: normal;
+    padding: 0rem 5rem;
+    position: absolute;
+    bottom: 0px;
+    background-color: white !important;
+    left: 50%;
+    transform: translateX(-50%);
+    margin: 0;
+    padding: 0.5rem 0rem;
+    /* width: 100vw-50%; */
+    width: calc(100vw - 40%);
+    text-align: center;
+}
+
+.board_title{
+    color: #000;
+    font-family: 'Oswald', sans-serif;
+    font-size: 40px;
+    font-style: normal;
+    font-weight: 500;
+    line-height: normal;
+    text-align: center;
+}
+
+.member_card{
+    background: #F2F2F2;
+    padding: 1.2rem;
+    text-align: center;
+    height: max-content;
+}
+
+.member_name{
+    color: #000;
+    font-family: 'Oswald', sans-serif;
+    font-size: 26px;
+    font-style: normal;
+    font-weight: 700;
+    line-height: normal;
+    margin-top: -0.5rem;
+    padding-top: 2rem;
+}
+
+.founding_member_name{
+    color: #000;
+    font-family: 'Oswald', sans-serif;
+    font-size: 26px;
+    font-style: normal;
+    font-weight: 700;
+    line-height: normal;
+    margin-top: -0.5rem;
+    padding: 3.5rem 0rem;
+}
+
+.member_designation{
+    color: #000;
+    text-align: center;
+    font-family: 'Oswald', sans-serif;
+    font-size: 16px;
+    font-style: normal;
+    font-weight: 400;
+    line-height: normal;
+}
+
+.member_designation_nocertified{
+    color: #000;
+    text-align: center;
+    font-family: 'Oswald', sans-serif;
+    font-size: 16px;
+    font-style: normal;
+    font-weight: 400;
+    line-height: normal;
+    padding-bottom: 4rem;
+}
+
+.member_certified{
+    color: #000;
+    text-align: center;
+    font-family: 'Oswald', sans-serif;
+    font-size: 14px;
+    font-style: normal;
+    font-weight: 300;
+    line-height: normal;
+    padding-bottom: 1.5rem;
+}
+
+.member_details{
+    background: #FFD900;
+}
+
+.board_image{
+    padding: 2rem 4rem;
+    width: 90%;
+    padding-bottom: 10rem;
+}
+
+/* media queries */
+
+@media only screen and (max-width: 768px) {
+    .structure_title{
+        color: #FFD900;
+        text-align: center;
+        font-size: 20px;
+        font-style: normal;
+        font-weight: 700;
+        line-height: normal;
+    }
+
+    .board_title{
+        color: #000;
+        font-size: 20px;
+        font-style: normal;
+        font-weight: 500;
+        line-height: normal;
+    }
+
+    .founding_member_name{
+        color: #000;
+        font-size: 19.972px;
+        font-style: normal;
+        font-weight: 700;
+        line-height: normal;
+    }
+
+    .member_name{
+        color: #000;
+        font-size: 19.972px;
+        font-style: normal;
+        font-weight: 700;
+        line-height: normal;
+    }
+
+    .member_certified{
+        color: #000;
+        text-align: center;
+        font-size: 12.29px;
+        font-style: normal;
+        font-weight: 400;
+        line-height: normal;
+    }
+
+    .member_designation_nocertified{
+        color: #000;
+        text-align: center;
+        font-size: 12.29px;
+        font-style: normal;
+        font-weight: 400;
+        line-height: normal;
+    }
+}
