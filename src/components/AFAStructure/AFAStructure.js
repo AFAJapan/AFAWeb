@@ -18,7 +18,7 @@ let boardMembers = [
   {
     memberImage:'/assets/images/boardMembers/BoardDirectors/binu.svg',
     memberName: 'Mr. Binu Thomas',
-    memberDesignation:'DirectOR Tokyo Academy',
+    memberDesignation:'Director Tokyo Academy',
   },
   {
     memberImage:'/assets/images/boardMembers/BoardDirectors/Subrata.svg',
