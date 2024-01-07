@@ -9,7 +9,7 @@ export default function Adult() {
             <div className='table_header'>OCTOBER 2023</div>
             <Grid container className='table_row'>
               <Grid item lg={3}>
-                Adult
+                Adult Team 
               </Grid>
               <Grid item lg={3}>
               Date
