@@ -7,68 +7,68 @@ export default function TokyoAcademy() {
   const schedules = {
     'January': {
       'Senior Kids(12 to 16 Years)': [
-        { date: 'Date', time: 'Time', location: 'Location' },
-        { date: '6-Jan-2024', time: '17:00-19:00', location: 'Mizue Multipurpose' },
-        { date: '7-Jan-2024', time: '16:00-18:00', location: 'Mizue Multipurpose' },
-        { date: '14-Jan-2024', time: '18:00-20:00', location: 'Rinkai Futsal B' },
-        { date: '20-Jan-2024', time: '10:00-12:00', location: 'Rinkai Futsal A' },
-        { date: '20-Jan-2024', time: '17:00-19:00', location: 'Kasai Rugby' },
-        { date: '28-Jan-2024', time: '16:00-18:00', location: 'Rinkai Futsal B' },
+        { date: 'Date  ', time: 'Time  ', location: 'Location  ' },
+        { date: '6-Jan-2024  ', time: '17:00-19:00  ', location: 'Mizue Multipurpose' },
+        { date: '7-Jan-2024  ', time: '16:00-18:00  ', location: 'Mizue Multipurpose' },
+        { date: '14-Jan-2024  ', time: '18:00-20:00  ', location: 'Rinkai Futsal B' },
+        { date: '20-Jan-2024  ', time: '10:00-12:00  ', location: 'Rinkai Futsal A' },
+        { date: '20-Jan-2024  ', time: '17:00-19:00  ', location: 'Kasai Rugby' },
+        { date: '28-Jan-2024  ', time: '16:00-18:00  ', location: 'Rinkai Futsal B' },
       ],
       'Junior Kids J1(8 to 12 Years)': [
-        { date: 'Date', time: 'Time', location: 'Location' },
-        { date: '6-Jan-2024', time: '17:00-19:00', location: 'Mizue Multipurpose' },
-        { date: '14-Jan-2024', time: '18:00-20:00', location: 'Rinkai Futsal A' },
-        { date: '20-Jan-2024', time: '17:00-19:00', location: 'Kasai Rugby' },
-        { date: '28-Jan-2024', time: '16:00-18:00', location: 'Rinkai Futsal A' },
+        { date: 'Date  ', time: 'Time  ', location: 'Location  ' },
+        { date: '6-Jan-2024  ', time: '17:00-19:00  ', location: 'Mizue Multipurpose' },
+        { date: '14-Jan-2024  ', time: '18:00-20:00  ', location: 'Rinkai Futsal A' },
+        { date: '20-Jan-2024  ', time: '17:00-19:00  ', location: 'Kasai Rugby' },
+        { date: '28-Jan-2024  ', time: '16:00-18:00  ', location: 'Rinkai Futsal A' },
       ],
       'Junior Kids J2(8 to 12 Years)': [
-        { date: 'Date', time: 'Time', location: 'Location' },
-        { date: '6-Jan-2024', time: '17:00-19:00', location: 'Mizue Multipurpose' },
-        { date: '14-Jan-2024', time: '18:00-20:00', location: 'Rinkai Futsal A' },
-        { date: '20-Jan-2024', time: '17:00-19:00', location: 'Kasai Rugby' },
-        { date: '28-Jan-2024', time: '16:00-18:00', location: 'Rinkai Futsal A' },
+        { date: 'Date  ', time: 'Time  ', location: 'Location' },
+        { date: '6-Jan-2024  ', time: '17:00-19:00  ', location: 'Mizue Multipurpose' },
+        { date: '14-Jan-2024  ', time: '18:00-20:00  ', location: 'Rinkai Futsal A' },
+        { date: '20-Jan-2024  ', time: '17:00-19:00  ', location: 'Kasai Rugby' },
+        { date: '28-Jan-2024  ', time: '16:00-18:00  ', location: 'Rinkai Futsal A' },
       ],
       'Sub Junior Kids(4 to 8 Years)': [
-        { date: 'Date', time: 'Time', location: 'Location' },
-        { date: '14-Jan-2024', time: '18:00-20:00', location: 'Rinkai Futsal A' },
-        { date: '20-Jan-2024', time: '17:00-19:00', location: 'Kasai Rugby' },
-        { date: '28-Jan-2024', time: '16:00-18:00', location: 'Rinkai Futsal A' },
+        { date: 'Date  ', time: 'Time  ', location: 'Location' },
+        { date: '14-Jan-2024  ', time: '18:00-20:00  ', location: 'Rinkai Futsal A' },
+        { date: '20-Jan-2024  ', time: '17:00-19:00  ', location: 'Kasai Rugby' },
+        { date: '28-Jan-2024  ', time: '16:00-18:00  ', location: 'Rinkai Futsal A' },
       ],
     },
     'February': {
       'Senior Kids(12 to 16 Years)': [
-        { date: 'Date', time: 'Time', location: 'Location' },
+        { date: 'Date  ', time: 'Time  ', location: 'Location' },
        
       ],
       'Junior Kids J1(8 to 12 Years)': [
-        { date: 'Date', time: 'Time', location: 'Location' },
+        { date: 'Date  ', time: 'Time  ', location: 'Location' },
        
       ],
       'Junior Kids J2(8 to 12 Years)': [
-        { date: 'Date', time: 'Time', location: 'Location' },
+        { date: 'Date  ', time: 'Time  ', location: 'Location' },
         
       ],
       'Sub Junior Kids(4 to 8 Years)': [
-        { date: 'Date', time: 'Time', location: 'Location' },
+        { date: 'Date  ', time: 'Time  ', location: 'Location' },
         
       ],
     },
     'March': {
       'Senior Kids(12 to 16 Years)': [
-        { date: 'Date', time: 'Time', location: 'Location' },
+        { date: 'Date  ', time: 'Time  ', location: 'Location' },
        
       ],
       'Junior Kids J1(8 to 12 Years)': [
-        { date: 'Date', time: 'Time', location: 'Location' },
+        { date: 'Date  ', time: 'Time  ', location: 'Location' },
        
       ],
       'Junior Kids J2(8 to 12 Years)': [
-        { date: 'Date', time: 'Time', location: 'Location' },
+        { date: 'Date  ', time: 'Time  ', location: 'Location' },
         
       ],
       'Sub Junior Kids(4 to 8 Years)': [
-        { date: 'Date', time: 'Time', location: 'Location' },
+        { date: 'Date  ', time: 'Time  ', location: 'Location' },
         
       ],
     },
