@@ -11,6 +11,7 @@ export default function TokyoAcademy() {
         { date: '6-Jan-2024  ', time: '8:00-11:00 ', location: 'Shin-Yokohama park, Touteki-jyou' },
         { date: '13-Jan-2024  ', time: '9:00-11:00', location: 'Grandberry' },
         { date: '20-Jan-2024  ', time: '9:00-11:00', location: 'Grandberry' },
+        { date: '21-Jan-2024  ', time: '10:00-12:00', location: 'Kayaba koen Kirigaoka' },
         { date: '27-Jan-2024  ', time: '9:00-11:00', location: 'Grandberry' },
       ],
     },
