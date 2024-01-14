@@ -11,7 +11,6 @@ export default function TokyoAcademy() {
         { date: '6-Jan-2024  ', time: '17:00-19:00  ', location: 'Mizue Multipurpose' },
         { date: '7-Jan-2024  ', time: '16:00-18:00  ', location: 'Mizue Multipurpose' },
         { date: '14-Jan-2024  ', time: '18:00-20:00  ', location: 'Rinkai Futsal B' },
-        { date: '20-Jan-2024  ', time: '10:00-12:00  ', location: 'Rinkai Futsal A' },
         { date: '20-Jan-2024  ', time: '17:00-19:00  ', location: 'Kasai Rugby' },
         { date: '28-Jan-2024  ', time: '16:00-18:00  ', location: 'Rinkai Futsal B' },
       ],
