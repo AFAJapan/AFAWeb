@@ -64,6 +64,9 @@ export default function TokyoAcademy() {
       ],
       'Sub Junior Kids(4 to 8 Years)': [
         { date: 'Date  ', time: 'Time  ', location: 'Location' },
+        { date: '3-Feb-2024  ', time: '17:00-19:00  ', location: 'Kasai Rugby Sportspark' },
+        { date: '10-Feb-2024  ', time: '17:00-19:00  ', location: 'Ojima Komatsugawa Park A, Soccer (Small)/大島小松川公園Ａ' },
+        { date: '25-Feb-2024  ', time: '16:00-18:00  ', location: 'Rinkai Futsal B' },
         
       ],
     },
