@@ -35,17 +35,31 @@ export default function TokyoAcademy() {
         { date: '28-Jan-2024  ', time: '16:00-18:00  ', location: 'Rinkai Futsal A' },
       ],
     },
-    'February': {
+'February': {
       'Senior Kids(12 to 16 Years)': [
-        { date: 'Date  ', time: 'Time  ', location: 'Location' },
+        { date: 'Date  ', time: 'Time  ', location: 'Location  ' },
+        { date: '3-Feb-2024  ', time: '17:00-19:00  ', location: 'Kasai Rugby Sportspark' },
+        { date: '10-Feb-2024  ', time: '17:00-19:00  ', location: 'Rinkai Futsal A' },
+        { date: '17-Feb-2024  ', time: '14:00-16:00  ', location: 'Mizube Futsal B' },
+        { date: '25-Feb-2024  ', time: '16:00-18:00  ', location: 'Rinkai Futsal A' },
        
       ],
       'Junior Kids J1(8 to 12 Years)': [
-        { date: 'Date  ', time: 'Time  ', location: 'Location' },
+        { date: 'Date  ', time: 'Time  ', location: 'Location  ' },
+        { date: '3-Feb-2024  ', time: '17:00-19:00  ', location: 'Kasai Rugby Sportspark' },
+        { date: '4-Feb-2024 (Compensation session) ', time: '13:00-15:00  ', location: 'Tatsumi Forest Seaside Park' },
+        { date: '10-Feb-2024  ', time: '17:00-19:00  ', location: 'Ojima Komatsugawa Park A, Soccer' },
+        { date: '17-Feb-2024  ', time: '15:00-17:00  ', location: 'Rinkai Futsal B' },
+        { date: '25-Feb-2024  ', time: '16:00-18:00  ', location: 'Rinkai Futsal B' },
        
       ],
       'Junior Kids J2(8 to 12 Years)': [
         { date: 'Date  ', time: 'Time  ', location: 'Location' },
+        { date: '3-Feb-2024  ', time: '17:00-19:00  ', location: 'Kasai Rugby Sportspark' },
+        { date: '4-Feb-2024 (Compensation session) ', time: '13:00-15:00  ', location: 'Tatsumi Forest Seaside Park' },
+        { date: '10-Feb-2024  ', time: '17:00-19:00  ', location: 'Ojima Komatsugawa Park A, Soccer' },
+        { date: '17-Feb-2024  ', time: '15:00-17:00  ', location: 'Rinkai Futsal B' },
+        { date: '25-Feb-2024  ', time: '16:00-18:00  ', location: 'Rinkai Futsal B' },
         
       ],
       'Sub Junior Kids(4 to 8 Years)': [
