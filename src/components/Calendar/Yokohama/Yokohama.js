@@ -18,6 +18,11 @@ export default function TokyoAcademy() {
     'February': {
       'Academy': [
         { date: 'Date  ', time: 'Time  ', location: 'Location' },
+        { date: '3-Feb-2024  ', time: '11:00-13:00 ', location: 'Grandberry' },
+        { date: '4-Feb-2024  ', time: '10:00-12:00', location: 'Kayaba koen' },
+        { date: '11-Feb-2024  ', time: '10:00-12:00', location: 'Kayaba koen' },
+        { date: '17-Feb-2024  ', time: '10:00-12:00', location: 'Grandberry' },
+        { date: '24-Feb-2024  ', time: '11:00-13:00', location: 'Grandberry' },
        
       ],
     },
