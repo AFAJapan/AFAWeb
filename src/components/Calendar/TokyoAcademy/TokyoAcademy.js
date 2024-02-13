@@ -66,6 +66,7 @@ export default function TokyoAcademy() {
         { date: 'Date  ', time: 'Time  ', location: 'Location' },
         { date: '3-Feb-2024  ', time: '17:00-19:00  ', location: 'Kasai Rugby Sportspark' },
         { date: '10-Feb-2024  ', time: '17:00-19:00  ', location: 'Ojima Komatsugawa Park A, Soccer (Small)/大島小松川公園Ａ' },
+        { date: '18-Feb-2024  ', time: '17:00-19:00  ', location: 'Ojima Komatsugawa Park A, Soccer (Small)/大島小松川公園Ａ' },
         { date: '25-Feb-2024  ', time: '16:00-18:00  ', location: 'Rinkai Futsal B' },
         
       ],
