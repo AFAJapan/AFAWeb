@@ -28,7 +28,7 @@ export default function TokyoAcademy() {
         { date: '20-Jan-2024  ', time: '17:00-19:00  ', location: 'Kasai Rugby' },
         { date: '28-Jan-2024  ', time: '16:00-18:00  ', location: 'Rinkai Futsal A' },
       ],
-      'Sub Junior Kids(4 to 8 Years)': [
+      'Sub Junior Kids(4 to 7 Years)': [
         { date: 'Date  ', time: 'Time  ', location: 'Location' },
         { date: '14-Jan-2024  ', time: '18:00-20:00  ', location: 'Rinkai Futsal A' },
         { date: '20-Jan-2024  ', time: '17:00-19:00  ', location: 'Kasai Rugby' },
@@ -62,7 +62,7 @@ export default function TokyoAcademy() {
         { date: '25-Feb-2024  ', time: '16:00-18:00  ', location: 'Rinkai Futsal B' },
         
       ],
-      'Sub Junior Kids(4 to 8 Years)': [
+      'Sub Junior Kids(4 to 7 Years)': [
         { date: 'Date  ', time: 'Time  ', location: 'Location' },
         { date: '3-Feb-2024  ', time: '17:00-19:00  ', location: 'Kasai Rugby Sportspark' },
         { date: '10-Feb-2024  ', time: '17:00-19:00  ', location: 'Ojima Komatsugawa Park A, Soccer (Small)/大島小松川公園Ａ' },
