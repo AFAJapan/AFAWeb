@@ -5,37 +5,7 @@ import { Grid } from '@mui/material';
 export default function TokyoAcademy() {
   // Schedules based on the provided table
   const schedules = {
-    'January': {
-      'Senior Kids(12 to 16 Years)': [
-        { date: 'Date  ', time: 'Time  ', location: 'Location  ' },
-        { date: '6-Jan-2024  ', time: '17:00-19:00  ', location: 'Mizue Multipurpose' },
-        { date: '7-Jan-2024  ', time: '16:00-18:00  ', location: 'Mizue Multipurpose' },
-        { date: '14-Jan-2024  ', time: '18:00-20:00  ', location: 'Rinkai Futsal B' },
-        { date: '20-Jan-2024  ', time: '17:00-19:00  ', location: 'Kasai Rugby' },
-        { date: '28-Jan-2024  ', time: '16:00-18:00  ', location: 'Rinkai Futsal B' },
-      ],
-      'Junior Kids J1(8 to 12 Years)': [
-        { date: 'Date  ', time: 'Time  ', location: 'Location  ' },
-        { date: '6-Jan-2024  ', time: '17:00-19:00  ', location: 'Mizue Multipurpose' },
-        { date: '14-Jan-2024  ', time: '18:00-20:00  ', location: 'Rinkai Futsal A' },
-        { date: '20-Jan-2024  ', time: '17:00-19:00  ', location: 'Kasai Rugby' },
-        { date: '28-Jan-2024  ', time: '16:00-18:00  ', location: 'Rinkai Futsal A' },
-      ],
-      'Junior Kids J2(8 to 12 Years)': [
-        { date: 'Date  ', time: 'Time  ', location: 'Location' },
-        { date: '6-Jan-2024  ', time: '17:00-19:00  ', location: 'Mizue Multipurpose' },
-        { date: '14-Jan-2024  ', time: '18:00-20:00  ', location: 'Rinkai Futsal A' },
-        { date: '20-Jan-2024  ', time: '17:00-19:00  ', location: 'Kasai Rugby' },
-        { date: '28-Jan-2024  ', time: '16:00-18:00  ', location: 'Rinkai Futsal A' },
-      ],
-      'Sub Junior Kids(4 to 7 Years)': [
-        { date: 'Date  ', time: 'Time  ', location: 'Location' },
-        { date: '14-Jan-2024  ', time: '18:00-20:00  ', location: 'Rinkai Futsal A' },
-        { date: '20-Jan-2024  ', time: '17:00-19:00  ', location: 'Kasai Rugby' },
-        { date: '28-Jan-2024  ', time: '16:00-18:00  ', location: 'Rinkai Futsal A' },
-      ],
-    },
-'February': {
+  'February': {
       'Senior Kids(12 to 16 Years)': [
         { date: 'Date  ', time: 'Time  ', location: 'Location  ' },
         { date: '3-Feb-2024  ', time: '17:00-19:00  ', location: 'Kasai Rugby Sportspark' },
@@ -73,23 +43,27 @@ export default function TokyoAcademy() {
     },
     'March': {
       'Senior Kids(12 to 16 Years)': [
-        { date: 'Date  ', time: 'Time  ', location: 'Location' },
-       
+        { date: 'Date  ', time: 'Time  ', location: 'Location  ' },
+        { date: '2-Mar-2024  ', time: '12:00-14:00  ', location: 'Mizue Multipurpose' },
+        { date: '10-mar-2024  ', time: '9:00-11:00  ', location: 'Rinkai Futsal B' },
+        { date: '16-Mar-2024  ', time: '17:00-19:00  ', location: 'Kasai Rugby' },
+        { date: '23-Mar-2024  ', time: '17:00-19:00  ', location: 'Kasai Rugby' },
+        { date: '30-Mar-2024  ', time: '11:00-13:00  ', location: 'Rinkai Futsal A' },
       ],
-      'Junior Kids J1(8 to 12 Years)': [
-        { date: 'Date  ', time: 'Time  ', location: 'Location' },
-       
+      'Junior Kids J1 and J2(8 to 12 Years)': [
+        { date: 'Date  ', time: 'Time  ', location: 'Location  ' },
+        { date: '3-Mar-2024  ', time: '17:00-19:00  ', location: 'Ojima Komatsugawa Park A, Soccer' },
+        { date: '09-Mar-2024  ', time: '12:00-14:00  ', location: 'Mizue Multipurpose' },
+        { date: '16-Mar-2024  ', time: '17:00-19:00  ', location: 'Kasai Rugby' },
+        { date: '31-Mar-2024  ', time: '17:00-19:00  ', location: 'Ojima Komatsugawa Park A, Soccer' },
       ],
-      'Junior Kids J2(8 to 12 Years)': [
+      'Sub Junior Kids(4 to 7 Years)': [
         { date: 'Date  ', time: 'Time  ', location: 'Location' },
-        
+        { date: '3-Mar-2024  ', time: '17:00-19:00  ', location: 'Ojima Komatsugawa Park A, Soccer' },
+        { date: '16-Mar-2024  ', time: '17:00-19:00  ', location: 'Kasai Rugby' },
+        { date: '31-Jan-2024  ', time: '17:00-19:00  ', location: 'Ojima Komatsugawa Park A, Soccer' },
       ],
-      'Sub Junior Kids(4 to 8 Years)': [
-        { date: 'Date  ', time: 'Time  ', location: 'Location' },
-        
-      ],
-    },
-  };
+    };
 
   const renderSchedule = (teamName, teamSchedule) => (
     <>
