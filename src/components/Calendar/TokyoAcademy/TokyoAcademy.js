@@ -63,7 +63,8 @@ export default function TokyoAcademy() {
         { date: '16-Mar-2024  ', time: '17:00-19:00  ', location: 'Kasai Rugby' },
         { date: '31-Jan-2024  ', time: '17:00-19:00  ', location: 'Ojima Komatsugawa Park A, Soccer' },
       ],
-    };
+    }
+  };
 
   const renderSchedule = (teamName, teamSchedule) => (
     <>
@@ -91,7 +92,7 @@ export default function TokyoAcademy() {
 
   return (
     <div className='table_container'>
-      {['January', 'February', 'March'].map(month => renderMonthSection(month))}
+      {['February', 'March'].map(month => renderMonthSection(month))}
     </div>
   );
 }
