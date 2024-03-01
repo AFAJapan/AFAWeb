@@ -55,7 +55,7 @@ export default function TokyoAcademy() {
 
   return (
     <div className='table_container'>
-      {['January', 'February', 'March'].map(month => renderMonthSection(month))}
+      {['February', 'March'].map(month => renderMonthSection(month))}
     </div>
   );
 }
