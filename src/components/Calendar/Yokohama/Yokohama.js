@@ -5,16 +5,6 @@ import { Grid } from '@mui/material';
 export default function TokyoAcademy() {
   // Schedules based on the provided table
   const schedules = {
-    'January': {
-      'Academy': [
-        { date: 'Date  ', time: 'Time  ', location: 'Location  ' },
-        { date: '6-Jan-2024  ', time: '8:00-11:00 ', location: 'Shin-Yokohama park, Touteki-jyou' },
-        { date: '13-Jan-2024  ', time: '9:00-11:00', location: 'Grandberry' },
-        { date: '20-Jan-2024  ', time: '9:00-11:00', location: 'Grandberry' },
-        { date: '21-Jan-2024  ', time: '10:00-12:00', location: 'Kayaba koen Kirigaoka' },
-        { date: '27-Jan-2024  ', time: '9:00-11:00', location: 'Grandberry' },
-      ],
-    },
     'February': {
       'Academy': [
         { date: 'Date  ', time: 'Time  ', location: 'Location' },
@@ -28,7 +18,12 @@ export default function TokyoAcademy() {
     },
     'March': {
       'Academy': [
-        { date: 'Date  ', time: 'Time  ', location: 'Location' },
+         { date: 'Date  ', time: 'Time  ', location: 'Location' },
+        { date: '2-Mar-2024  ', time: '11:00-13:00 ', location: 'Grandberry' },
+        { date: '16-Mar-2024  ', time: '11:00-13:00', location: 'Grandberry' },
+        { date: '23-Mar-2024  ', time: '11:00-13:00', location: 'Grandberry' },
+        { date: '30-Mar-2024  ', time: '11:00-13:00', location: 'Grandberry' },
+        
        
       ],
     },
