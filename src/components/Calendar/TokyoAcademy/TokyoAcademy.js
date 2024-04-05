@@ -5,65 +5,53 @@ import { Grid } from '@mui/material';
 export default function TokyoAcademy() {
   // Schedules based on the provided table
   const schedules = {
-  'February': {
-      'Senior Kids(12 to 16 Years)': [
-        { date: 'Date  ', time: 'Time  ', location: 'Location  ' },
-        { date: '3-Feb-2024  ', time: '17:00-19:00  ', location: 'Kasai Rugby Sportspark' },
-        { date: '10-Feb-2024  ', time: '17:00-19:00  ', location: 'Rinkai Futsal A' },
-        { date: '17-Feb-2024  ', time: '14:00-16:00  ', location: 'Mizube Futsal B' },
-        { date: '25-Feb-2024  ', time: '16:00-18:00  ', location: 'Rinkai Futsal A' },
-       
-      ],
-      'Junior Kids J1(8 to 12 Years)': [
-        { date: 'Date  ', time: 'Time  ', location: 'Location  ' },
-        { date: '3-Feb-2024  ', time: '17:00-19:00  ', location: 'Kasai Rugby Sportspark' },
-        { date: '4-Feb-2024 (Compensation session) ', time: '13:00-15:00  ', location: 'Tatsumi Forest Seaside Park' },
-        { date: '10-Feb-2024  ', time: '17:00-19:00  ', location: 'Ojima Komatsugawa Park A, Soccer' },
-        { date: '17-Feb-2024  ', time: '15:00-17:00  ', location: 'Rinkai Futsal B' },
-        { date: '25-Feb-2024  ', time: '16:00-18:00  ', location: 'Rinkai Futsal B' },
-       
-      ],
-      'Junior Kids J2(8 to 12 Years)': [
-        { date: 'Date  ', time: 'Time  ', location: 'Location' },
-        { date: '3-Feb-2024  ', time: '17:00-19:00  ', location: 'Kasai Rugby Sportspark' },
-        { date: '4-Feb-2024 (Compensation session) ', time: '13:00-15:00  ', location: 'Tatsumi Forest Seaside Park' },
-        { date: '10-Feb-2024  ', time: '17:00-19:00  ', location: 'Ojima Komatsugawa Park A, Soccer' },
-        { date: '17-Feb-2024  ', time: '15:00-17:00  ', location: 'Rinkai Futsal B' },
-        { date: '25-Feb-2024  ', time: '16:00-18:00  ', location: 'Rinkai Futsal B' },
-        
-      ],
-      'Sub Junior Kids(4 to 7 Years)': [
-        { date: 'Date  ', time: 'Time  ', location: 'Location' },
-        { date: '3-Feb-2024  ', time: '17:00-19:00  ', location: 'Kasai Rugby Sportspark' },
-        { date: '10-Feb-2024  ', time: '17:00-19:00  ', location: 'Ojima Komatsugawa Park A, Soccer (Small)/大島小松川公園Ａ' },
-        { date: '18-Feb-2024  ', time: '17:00-19:00  ', location: 'Ojima Komatsugawa Park A, Soccer (Small)/大島小松川公園Ａ' },
-        { date: '25-Feb-2024  ', time: '16:00-18:00  ', location: 'Rinkai Futsal B' },
-        
-      ],
-    },
     'March': {
       'Senior Kids(12 to 16 Years)': [
-        { date: 'Date  ', time: 'Time  ', location: 'Location  ' },
-        { date: '2-Mar-2024  ', time: '12:00-14:00  ', location: 'Mizue Multipurpose' },
-        { date: '10-mar-2024  ', time: '9:00-11:00  ', location: 'Rinkai Futsal B' },
-        { date: '16-Mar-2024  ', time: '17:00-19:00  ', location: 'Kasai Rugby' },
-        { date: '23-Mar-2024  ', time: '17:00-19:00  ', location: 'Kasai Rugby' },
-        { date: '30-Mar-2024  ', time: '11:00-13:00  ', location: 'Rinkai Futsal A' },
+        { date: 'Date  ', event: 'Event', time: 'Time  ', location: 'Location  ' },
+        { date: '6-Mar-2024  ',event:  'Training', time: '17:00-19:00  ', location: 'Mizue Multipurpose' },
+        { date: '13-Mar-2024  ',event: 'Training ', time: '18:00-20:00  ', location: 'Rinkai Futsal B' },
+        { date: '20-Mar-2024  ', event: 'Training  ',time: '17:00-19:00  ', location: 'Mizue Multipurpose' },
+        { date: '27-Mar-2024  ', event: 'Training  ',time: '17:00-19:00  ', location: 'Kasai Rugby' },
+        { date: '30-Mar-2024  ', event: 'Training',time: '11:00-13:00  ', location: 'Rinkai Futsal A' },
       ],
       'Junior Kids J1 and J2(8 to 12 Years)': [
-        { date: 'Date  ', time: 'Time  ', location: 'Location  ' },
-        { date: '3-Mar-2024  ', time: '17:00-19:00  ', location: 'Ojima Komatsugawa Park A, Soccer' },
-        { date: '09-Mar-2024  ', time: '12:00-14:00  ', location: 'Mizue Multipurpose' },
-        { date: '16-Mar-2024  ', time: '17:00-19:00  ', location: 'Kasai Rugby' },
-        { date: '31-Mar-2024  ', time: '17:00-19:00  ', location: 'Ojima Komatsugawa Park A, Soccer' },
+        { date: 'Date  ', event: 'Event', time: 'Time  ', location: 'Location  ' },
+        { date: '3-Mar-2024  ',event: 'Training', time: '17:00-19:00  ', location: 'Ojima Komatsugawa Park A, Soccer' },
+        { date: '09-Mar-2024  ',event: 'Training', time: '12:00-14:00  ', location: 'Mizue Multipurpose' },
+        { date: '16-Mar-2024  ',event: 'Training', time: '17:00-19:00  ', location: 'Kasai Rugby' },
+        { date: '31-Mar-2024  ',event: 'Training', time: '17:00-19:00  ', location: 'Ojima Komatsugawa Park A, Soccer' },
       ],
       'Sub Junior Kids(4 to 7 Years)': [
-        { date: 'Date  ', time: 'Time  ', location: 'Location' },
-        { date: '3-Mar-2024  ', time: '17:00-19:00  ', location: 'Ojima Komatsugawa Park A, Soccer' },
-        { date: '16-Mar-2024  ', time: '17:00-19:00  ', location: 'Kasai Rugby' },
-        { date: '31-Jan-2024  ', time: '17:00-19:00  ', location: 'Ojima Komatsugawa Park A, Soccer' },
+        { date: 'Date  ', event: 'Event', time: 'Time  ', location: 'Location' },
+        { date: '3-Mar-2024  ', event: 'Training',time: '17:00-19:00 ', location: 'Ojima Komatsugawa Park A, Soccer' },
+        { date: '16-Mar-2024  ', event: 'Training',time: '17:00-19:00 ', location: 'Kasai Rugby' },
+        { date: '31-Jan-2024  ', event: 'Training',time: '17:00-19:00  ', location: 'Ojima Komatsugawa Park A, Soccer' },
       ],
-    }
+    },
+    'April': {
+      'Senior Kids(12 to 16 Years)': [
+        { date: 'Date  ', event: 'Event', time: 'Time  ', location: 'Location  ' },
+        { date: '6-Apr-2024  ',event:  'Training', time: '17:00-19:00  ', location: 'Mizue Multipurpose' },
+        { date: '13-Apr-2024  ',event: 'Training', time: '18:00-20:00  ', location: 'Rinkai Futsal B' },
+        { date: '20-Apr-2024  ',event: 'Training  ',time: '17:00-19:00  ', location: 'Mizue Multipurpose' },
+        { date: '27-Apr-2024  ',event: 'NOX CL U-15',time: '17:00-19:00  ', location: 'Kasai Rugby' },
+        
+      ],
+      'Junior Kids J1 and J2(8 to 12 Years)': [
+        { date: 'Date  ', event: 'Event', time: 'Time  ', location: 'Location  ' },
+        { date: '6-Apr-2024  ',event:  'Training',   time: '17:00-19:00  ', location: 'Mizue Multipurpose' },
+        { date: '13-Apr-2024  ',event: 'Training',   time: '18:00-20:00  ', location: 'Rinkai Futsal B' },
+        { date: '20-Apr-2024  ',event: 'Training',   time: '17:00-19:00  ', location: 'Mizue Multipurpose' },
+        { date: '27-Apr-2024  ',event: 'NOX CL U-12',time: '17:00-19:00  ', location: 'Kasai Rugby' },
+      ],
+      'Sub Junior Kids(4 to 7 Years)': [
+        { date: 'Date  ', event: 'Event', time: 'Time  ', location: 'Location' },
+        { date: '7-Apr-2024  ', event: 'Training',time: '17:00-19:00  ', location: 'Kasai Rugby Sports Park - (Yamazaki and Santanu)' },
+        { date: '13-Apr-2024  ', event: 'Training',time: '17:00-19:00  ', location: 'Ojima Komatsugawa Park A, Soccer - (Yamazaki)' },
+        { date: '27-Apr-2024  ', event: 'Training',time: '09:00-11:00  ', location: 'Kasai Rugby Sports Park - ( Yamazaki and Santanu )' },
+      ],
+    },
+    
   };
 
   const renderSchedule = (teamName, teamSchedule) => (
@@ -72,6 +60,7 @@ export default function TokyoAcademy() {
       {teamSchedule.map((session, index) => (
         <div className='table_row' key={`${teamName}-${index}`} style={{ display: 'flex' }}>
           <div className='table_cell' style={{ flex: '1' }}>{session.date}</div>
+          <div className='table_cell' style={{ flex: '1' }}>{session.event}</div>
           <div className='table_cell' style={{ flex: '1' }}>{session.time}</div>
           <div className='table_cell' style={{ flex: '1' }}>{session.location}</div>
         </div>
@@ -92,7 +81,7 @@ export default function TokyoAcademy() {
 
   return (
     <div className='table_container'>
-      {['February', 'March'].map(month => renderMonthSection(month))}
+      {['March','April'].map(month => renderMonthSection(month))}
     </div>
   );
 }
