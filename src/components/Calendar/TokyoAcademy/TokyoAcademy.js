@@ -41,7 +41,7 @@ export default function TokyoAcademy() {
         { date: 'Date  ', event: 'Event', time: 'Time  ', location: 'Location  ' },
         { date: '6-Apr-2024  ',event:  'Training',   time: '17:00-19:00  ', location: 'Mizue Multipurpose' },
         { date: '13-Apr-2024  ',event: 'Training',   time: '18:00-20:00  ', location: 'Rinkai Futsal B' },
-        { date: '20-Apr-2024  ',event: 'Training',   time: '17:00-19:00  ', location: 'Mizue Multipurpose' },
+        { date: '20-Apr-2024  ',event: 'Training',   time: '15:00-17:00  ', location: 'Mizue Multipurpose' },
         { date: '27-Apr-2024  ',event: 'NOX CL U-12',time: '17:00-19:00  ', location: 'Kasai Rugby' },
       ],
       'Sub Junior Kids(4 to 7 Years)': [
