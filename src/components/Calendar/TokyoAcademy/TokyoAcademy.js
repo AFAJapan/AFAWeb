@@ -5,29 +5,6 @@ import { Grid } from '@mui/material';
 export default function TokyoAcademy() {
   // Schedules based on the provided table
   const schedules = {
-    'April': {
-      'Senior Kids(12 to 16 Years)': [
-        { date: 'Date  ', event: 'Event', time: 'Time  ', location: 'Location  ' },
-        { date: '6-Apr-2024  ',event:  'Training', time: '17:00-19:00  ', location: 'Mizue Multipurpose' },
-        { date: '13-Apr-2024  ',event: 'Training', time: '18:00-20:00  ', location: 'Rinkai Futsal B' },
-        { date: '20-Apr-2024  ',event: 'Training  ',time: '17:00-19:00  ', location: 'Mizue Multipurpose' },
-        { date: '27-Apr-2024  ',event: 'NOX CL U-15',time: '17:00-19:00  ', location: 'Kasai Rugby' },
-        
-      ],
-      'Junior Kids J1 and J2(8 to 12 Years)': [
-        { date: 'Date  ', event: 'Event', time: 'Time  ', location: 'Location  ' },
-        { date: '6-Apr-2024  ',event:  'Training',   time: '17:00-19:00  ', location: 'Mizue Multipurpose' },
-        { date: '13-Apr-2024  ',event: 'Training',   time: '18:00-20:00  ', location: 'Rinkai Futsal B' },
-        { date: '20-Apr-2024  ',event: 'Training',   time: '17:00-19:00  ', location: 'Mizue Multipurpose' },
-        { date: '27-Apr-2024  ',event: 'NOX CL U-12',time: '17:00-19:00  ', location: 'Kasai Rugby' },
-      ],
-      'Sub Junior Kids(4 to 7 Years)': [
-        { date: 'Date  ', event: 'Event', time: 'Time  ', location: 'Location' },
-        { date: '7-Apr-2024  ', event: 'Training',time: '17:00-19:00  ', location: 'Kasai Rugby Sports Park - (Yamazaki and Santanu)' },
-        { date: '13-Apr-2024  ', event: 'Training',time: '17:00-19:00  ', location: 'Ojima Komatsugawa Park A, Soccer - (Yamazaki)' },
-        { date: '27-Apr-2024  ', event: 'Training',time: '09:00-11:00  ', location: 'Kasai Rugby Sports Park - ( Yamazaki and Santanu )' },
-      ],
-    },
     'May': {
       'Senior Kids(12 to 16 Years)': [
         { date: 'Date  ', event: 'Event', time: 'Time  ', location: 'Location  ' },
@@ -53,7 +30,29 @@ export default function TokyoAcademy() {
         { date: '25-May-2024  ', event: 'Training',time: '17:00-19:00  ', location: 'Ojima Komatsugawa Park A, Soccer - ( Santanu )' },
       ],
     },
-    
+    'June': {
+      'Senior Kids(12 to 16 Years)': [
+        { date: 'Date  ', event: 'Event', time: 'Time  ', location: 'Location  ' },
+        { date: '2-June-2024  ',event:  'Training', time: '19:00-21:00  ', location: 'Ojima Komatsugawa Park A' },
+        { date: '09-June-2024  ',event: 'Training', time: '17:00-19:00  ', location: 'Rinkai Futsal A' },
+        { date: '16-June-2024  ',event: 'Training', time:  '17:00-19:00',  location: 'Rinkai Futsal A' },
+        { date: '23-June-2024  ',event: 'Training', time:  '17:00-19:00  ', location: 'Rinkai Futsal B' },
+        
+      ],
+      'Junior Kids J1 and J2(8 to 12 Years)': [
+        { date: 'Date  ', event: 'Event', time: 'Time  ', location: 'Location  ' },
+        { date: '2-June-2024  ',event:  'Training',   time: '17:00-19:00  ', location: 'Ojima Komatsugawa Park A' },
+        { date: '08-June-2024  ',event: 'Training',   time: '17:00-19:00  ', location: 'Kasai Rugby Sports' },
+        { date: '22-June-2024  ',event: 'Training',   time: '11:00-13:00  ', location: 'Rinkai Futsal A' },
+        { date: '30-June-2024  ',event: 'Training',   time: '17:00-19:00  ', location: 'Ojima Komatsugawa Park A' },
+      ],
+      'Sub Junior Kids(4 to 7 Years)': [
+        { date: 'Date  ', event: 'Event', time: 'Time  ', location: 'Location' },
+        { date: '2-June-2024  ', event: 'Training',time: '17:00-19:00  ', location: 'Ojima Komatsugawa Park A - (Daichi)' },
+        { date: '08-June-2024  ', event: 'Training',time: '17:00-19:00  ', location: 'Kasai Rugby Sports Park- (Daichi)' },
+        { date: '30-June-2024  ', event: 'Training',time: '17:00-19:00  ', location: 'Ojima Komatsugawa Park A - (Santanu )' },
+      ],
+    }, 
   };
 
   const renderSchedule = (teamName, teamSchedule) => (
@@ -83,7 +82,7 @@ export default function TokyoAcademy() {
 
   return (
     <div className='table_container'>
-      {['April','May'].map(month => renderMonthSection(month))}
+      {['May','June'].map(month => renderMonthSection(month))}
     </div>
   );
 }
