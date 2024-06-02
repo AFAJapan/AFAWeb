@@ -5,16 +5,7 @@ import { Grid } from '@mui/material';
 export default function TokyoAcademy() {
   // Schedules based on the provided table
   const schedules = {
-    'April': {
-      'Academy': [
-        { date: 'Date  ', event: 'Event', time: 'Time  ', location: 'Location  ' },
-        { date: '6-Apr-2024  ',event:  '(2 courts)/NOX League', time: '11:00-13:00 ', location: 'Grandberry' },
-        { date: '13-Apr-2024  ',event: 'Training ', time: '09:00-11:00 ', location: 'Kayaba koen' },
-        { date: '20-Apr-2024  ', event: 'Training  ',time: '08:30-10:30', location: 'ShinYokohama' },
-        { date: '21-Apr-2024  ', event: 'Training  ',time: '11:00-13:00', location: 'Kayaba koen' },
-        { date: '27-Apr-2024  ', event: 'Training  ',time: '14:30-17:00', location: 'Kayaba koen' },
-      ],
-    },
+    
     'May': {
       'Academy': [
         { date: 'Date  ', event: 'Event', time: 'Time  ', location: 'Location  ' },
@@ -22,6 +13,16 @@ export default function TokyoAcademy() {
         { date: '11-May-2024  ',event: 'Training ', time: '9:00-11:00 ', location: 'Grandberry' },
         { date: '18-May-2024  ', event: 'Training  ',time: '17:00-19:00', location: 'Grandberry' },
         
+      ],
+    },
+    'June': {
+      'Academy': [
+        { date: 'Date  ', event: 'Event', time: 'Time  ', location: 'Location  ' },
+        { date: '8-June-2024  ',event:  'Training', time: '17:00-19:00 ', location: 'Grandberry' },
+        { date: '15-June-2024  ',event: 'Noax League only for U8', time: '08:00-11:00 ', location: ' ' },
+        { date: '22-June-2024  ', event: 'Training  ',time: '08:30-10:30', location: 'ShinYokohama' },
+        { date: '29-June-2024  ', event: 'Training  ',time: '09:00-11:00', location: 'Grandberry' },
+       
       ],
     },
   };
@@ -53,7 +54,7 @@ export default function TokyoAcademy() {
 
   return (
     <div className='table_container'>
-      {['April', 'May'].map(month => renderMonthSection(month))}
+      {['May', 'June'].map(month => renderMonthSection(month))}
     </div>
   );
 }
